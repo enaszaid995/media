@@ -1,0 +1,8 @@
+.services .quote{
+min-height: 30vh;
+}
+.quote p{
+    font-size: x-large;
+    color: #a22d09;
+    text-shadow: 1px 1px 1px gray;
+}

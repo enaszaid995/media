@@ -1,0 +1,23 @@
+.services{
+    width:50%;
+    margin: auto;
+    padding:3rem 0rem;
+    
+}
+.services h3{
+    margin: auto;
+    font-weight: bolder;
+    font-size: x-large;
+    text-shadow: 1px 1px 1px gray;
+}
+.services section{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+@media (max-width :700px) {
+    .services section{
+        flex-wrap: wrap;
+    }
+    
+}

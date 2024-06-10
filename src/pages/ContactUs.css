@@ -1,0 +1,46 @@
+.contact{
+    display: flex;
+    justify-content:center;
+    margin: 1rem;
+    text-align: center;
+    min-height: 75vh;
+
+}
+.contact_info{
+    margin: left;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+ul{
+    list-style: none;
+   
+}
+ul li{
+    font-weight: bold;
+    margin: 1rem;
+}
+.contact_info ul span{
+    --ci-primary-color: rgb(153, 98, 193);
+    padding-right: 1rem;
+  
+   
+}
+
+.iconsLink{
+    display: inline-flex;
+    width: 30px;
+
+}
+.social .head{
+   margin: 1rem 0rem; 
+   display: block;
+    
+}
+
+@media (max-width :700px) {
+    .contact{
+        flex-wrap: wrap;
+    }
+    
+}

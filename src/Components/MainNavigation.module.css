@@ -1,0 +1,62 @@
+.header {
+    background-color: #282c34;
+  
+    margin: auto;
+ 
+    padding-right: 3rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+   
+  }
+  
+    .logo{
+        color: white;
+        font-weight: 800;
+        padding-right: 4rem;
+
+    }
+    .logo  span{
+        color: red;
+        font-weight: bolder;
+        
+    }
+  
+  .list {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    color: rgb(206, 204, 204);
+    text-align: center;
+    
+  }
+  
+  .list a {
+    text-decoration: none;
+    color: var(--color-primary-400);
+  }
+  
+  .list a:hover,
+  .list a.active {
+    color: white;
+    font-weight: bolder;
+  }
+
+  
+@media screen {
+  .header, .list{
+      flex-wrap: wrap;
+      gap: 0.5rem;
+     
+  }
+  
+}
+
+@media (max-width:900px) {
+  .header, .list{
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      font-size: small;
+  }
+  
+}

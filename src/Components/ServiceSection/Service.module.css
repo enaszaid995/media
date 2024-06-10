@@ -1,0 +1,16 @@
+.service{
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    color: black;
+    
+}
+.service p{
+    color: rgb(107, 107, 107);
+}
+
+.service:hover{
+    border: 2px solid red;
+    
+}

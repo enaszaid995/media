@@ -1,0 +1,17 @@
+.values{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    min-height: 60vh;
+}
+.values li{
+    padding: 0rem 1rem;
+}
+
+
+@media (max-width :700px) {
+    .values{
+        flex-wrap: wrap;
+    }
+    
+}
