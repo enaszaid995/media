@@ -34,7 +34,7 @@ function MainNavigation() {
                 isActive ? classes.active : undefined
               }
             >
-              About Us
+              Our Team
             </NavLink>
           </li>
           <li>
@@ -49,24 +49,15 @@ function MainNavigation() {
           </li>
           <li>
             <NavLink
-              to="/casestudies"
+              to="/clients"
               className={({ isActive }) =>
                 isActive ? classes.active : undefined
               }
             >
-              Case Studies
+              Clients
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              to="/blogs"
-              className={({ isActive }) =>
-                isActive ? classes.active : undefined
-              }
-            >
-              Blog
-            </NavLink>
-          </li>
+         
           <li>
             <NavLink
               to="contactus"

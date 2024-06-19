@@ -1,13 +1,19 @@
 .service{
     text-decoration: none;
+    text-align: left;
     border: 2px solid black;
     margin: 1rem;
     padding: 1rem;
     color: black;
+    width: 40vh;
     
 }
 .service p{
     color: rgb(107, 107, 107);
+}
+
+.service li{
+    list-style-type: circle;
 }
 
 .service:hover{

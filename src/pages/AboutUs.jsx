@@ -1,30 +1,22 @@
 import React from 'react'
-import './AboutUs.css';
+import '../Components/Introduction/Introduction.css';
+import team from '../assets/images/team.jpg'
 export default function AboutUs() {
   return (
     <div>
-      <section>
+      <section className='intro' style={{"min-height":"65vh"}}>
         <h3>
-            Our Mission
+            Our Team
         </h3>
+        <img src={team} width='250px' height='200px' style={{padding:'1rem'}} alt="team"/>
           <p>
-            "Our mission is to empower businesses with innovative media startegies that 
-            drive growth and engagment."
+            "Our team comprises industry veterans, creative thinkers, and technical experts
+            with diverse backgrounds in journalism, public relations, digital marketing, and content
+            production. Each member brings a unique perspective and a wealth of experience, ensuring
+            our clients receive the best advice and solutions."
           </p>
         </section>
 
-        <section>
-          <h3>
-            Our Core Values
-          </h3>
-
-          <ul className='values'>
-            <li>Integrity</li>
-            <li>Innovation</li>
-            <li>Excellence</li>
-            <li>Collaboration</li>
-          </ul>
-        </section>
     </div>
   )
 }

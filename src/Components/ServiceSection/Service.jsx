@@ -1,15 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import classes from'./Service.module.css';
 export default function Service(props) {
   return (
-    <Link className={classes.service} to={"/services"}>
+    <div className={classes.service}>
         <h4>
             {props.name}
         </h4>  
-        <p>
-            {props.description}
-        </p>
-    </Link>
+        <ul>
+            {props.description.map((item) =>  <li>{item}</li>)}
+        </ul>
+    </div>
   )
 }

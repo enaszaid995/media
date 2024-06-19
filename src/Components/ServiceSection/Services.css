@@ -1,17 +1,20 @@
 .services{
-    width:50%;
+    width: 50%;
     margin: auto;
-    padding:3rem 0rem;
+    padding:1rem 0rem;
     
 }
 .services h3{
     margin: auto;
     font-weight: bolder;
     font-size: x-large;
+    padding: 1rem;
     text-shadow: 1px 1px 1px gray;
 }
 .services section{
     display: flex;
+    flex-wrap: wrap;    
+    width: 100vh;
     margin: auto;
     justify-content: center;
 }

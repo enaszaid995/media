@@ -4,8 +4,8 @@ import RootLayout from './pages/Root';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import ServicesPage from './pages/ServicesPage';
-import CaseStudies from './pages/CaseStudies';
-import Blogs from './pages/Blogs';
+import Clients from './pages/Clients';
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -29,15 +29,11 @@ const router = createBrowserRouter([
         
       },
       {
-        path:'casestudies',
-        element: <CaseStudies/>,
+        path:'clients',
+        element: <Clients/>,
         
       },
-      {
-        path:'blogs',
-        element: <Blogs/>,
-        
-      },
+      
     ],
   },
 ]);

@@ -4,6 +4,9 @@
     padding:3rem 0rem;
     
 }
+.intro div{
+    padding-top: 1rem;
+}
 .intro h3{
     margin: auto;
     font-weight: bolder;
