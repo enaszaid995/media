@@ -31,7 +31,7 @@ export default function ContactUs() {
                   <span><CIcon className='iconsLink' icon={cibGmail} /></span> info@visionmediaconsultancy.com
                 </li>
                 <li>
-                  <span><CIcon className='iconsLink' icon={cilApps} /></span> info@visionmediaconsultancy.com
+                  <span><CIcon className='iconsLink' icon={cilApps} /></span> www.visionmediaconsultancy.com
                 </li>
                  
                 <li className='social' >
